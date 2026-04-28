@@ -17,8 +17,7 @@
   </a>
   <a href="https://github.com/anushka-sh1307" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <img src="https://img.shields.io/badge/New%20Delhi%2C%20India-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+  
 </p>
 
 <br/>
