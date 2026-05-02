@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Anushka%20Sharma&fontSize=56&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Full-Stack%20ML%20Engineer%20%E2%80%A2%20Models%20to%20Production%20%E2%80%A2%20AI%20Agents&descSize=15&descAlignY=60&descColor=aac8ff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Anushka%20Sharma&fontSize=56&fontColor=fff&animation=twinkling&fontAlignY=38&desc=I%20don%27t%20just%20train%20models%20%E2%80%94%20I%20build%20systems%20people%20can%20actually%20use&descSize=13&descAlignY=60&descColor=aac8ff"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1200&color=7EB8F7&center=true&vCenter=true&width=680&lines=Building+ML+systems+that+actually+ship+%F0%9F%9A%80;Claude+API+%7C+AI+Agents+%7C+REST+APIs;Raw+data+in+%E2%86%92+Production+app+out+%E2%9C%85;Currently+exploring+NLP+%26+Deep+Learning+%F0%9F%A7%A0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1200&color=7EB8F7&center=true&vCenter=true&width=680&lines=ML+Engineer+%E2%80%94+data+to+model+to+API+to+UI;Claude+API+%7C+AI+Agents+%7C+REST+APIs+%7C+Docker;Raw+data+in+%E2%86%92+Production+app+out+%E2%9C%85;Currently+exploring+NLP+%26+Transformers)](https://git.io/typing-svg)
 
 <p>
   <a href="https://www.linkedin.com/in/anushka-sharma-078151326/" target="_blank">
@@ -24,14 +24,30 @@
 
 ```python
 anushka = {
-    "role"        : "Full-Stack ML Engineer (models → deployment)",
-    "building"    : "5+ ML systems · 3 live apps · AI agents with Claude API",
-    "superpower"  : "Turning a messy CSV into a shipped, production ML product",
-    "fun_fact"    : "I benchmark 7 models before trusting one 🤓",
-    "exploring"   : "NLP · Deep Learning · Transformers",
-    "open_to"     : "Internships · Research collabs · Cool ML problems"
+    "role"        : "ML Engineer — end-to-end, data to deployed product",
+    "built"       : "5+ ML systems · 3 live apps · AI agents with real-time APIs",
+    "currently"   : "Going deeper into NLP & Transformers after shipping 5 ML systems",
+    "next_goal"   : "First ML/AI internship — bring me a hard problem",
+    "open_to"     : "Internships · Research collabs · Anything that ships"
 }
 ```
+
+---
+
+## 🔨 What I'm building now
+
+Finished my core ML stack — regression, classification, AI agents, Docker deployments. Now moving into **NLP**: working through tokenization and text classification, building toward a first Transformer-based project. Every concept I learn, I build something with it.
+
+---
+
+## 📌 Proof of Work
+
+- 🚢 Shipped the **[AQI Analysis Agent](https://aqi-analyzer-agent.streamlit.app/)** live on Streamlit Cloud — real EPA data, real users, real decisions
+- 🤖 Wired Claude API into the AQI Agent to generate personalised health advice across 6 medical profiles and 5 activity types in under 2 seconds
+- 🐳 Containerised the Exam Score Predictor with Docker — Flask serving a CatBoost model through a modular, reusable pipeline (not a notebook)
+- 📊 Benchmarked 7 regression models before picking CatBoost (R²=0.88) for the Exam Predictor — automated via GridSearchCV, not guesswork
+- 🧾 Built the Invoice Intelligence Portal with a production inference pipeline — scaler persistence, zero-warning API, freight cost prediction at R²=96.99%
+- 🏥 Tuned SVM, Random Forest & XGBoost across 3 real medical datasets in the Multi-Disease Predictor — 95% accuracy, F1: 0.97 on Parkinson's
 
 ---
 
@@ -55,12 +71,18 @@ anushka = {
 
 ## 🚀 Projects
 
-| Project | Stack | Result |
+### 🌟 [AQI Analysis Agent](https://github.com/AnushkaSharma05/) · [Live ↗](https://aqi-analyzer-agent.streamlit.app/)
+> Fetches live air quality data via REST APIs, computes AQI using the official US EPA formula across 6 pollutant tiers, and uses Claude API to generate personalised health recommendations — under 2 seconds, deployed on Streamlit Cloud.
+
+`Python` `Claude API` `REST APIs` `Streamlit Cloud`
+
+---
+
+| Project | What it does | Best result |
 |---|---|---|
-| 🌫️ **[AQI Analysis Agent](https://github.com/AnushkaSharma05/)** · [Live ↗](https://aqi-analyzer-agent.streamlit.app/) | Claude API · REST APIs · Streamlit | Real-time air quality + AI health recs · <2s |
-| 🏥 **[Multi-Disease Predictor](https://github.com/AnushkaSharma05/multi_disease)** | Scikit-learn · XGBoost · Streamlit | 95% acc · F1: 0.97 |
-| 🎓 **[Exam Score Predictor](https://github.com/AnushkaSharma05/MLprojects)** | CatBoost · Flask · Docker | R²=0.88 · Dockerized |
-| 🧾 **[Invoice Intelligence Portal](https://github.com/AnushkaSharma05/Invoice-Intelligence)** | Scikit-learn · Streamlit · joblib | R²=96.99% · Live dashboard |
+| 🏥 **[Multi-Disease Predictor](https://github.com/AnushkaSharma05/multi_disease)** | Detects Diabetes, Heart Disease & Parkinson's from patient inputs — 3 real medical datasets, GridSearchCV tuned | F1: 0.97 · 95% acc |
+| 🎓 **[Exam Score Predictor](https://github.com/AnushkaSharma05/MLprojects)** | Predicts student math scores from demographic indicators to flag at-risk students — 7 models benchmarked, Dockerized Flask API | R² = 0.88 |
+| 🧾 **[Invoice Intelligence Portal](https://github.com/AnushkaSharma05/Invoice-Intelligence)** | Predicts freight costs & flags risky invoices on real vendor data — full pipeline from ingestion to live Streamlit dashboard | R² = 96.99% |
 
 ---
 
@@ -77,12 +99,12 @@ anushka = {
 
 ---
 
-## 🏅 A few things
+## 📎 A few more things
 
-- Certified in AI/ML by **Google · Oracle · IBM · Hugging Face · DeepLearning.AI · Deloitte**
+- 🏅 AI/ML certified by **Google, IBM & DeepLearning.AI** (+ Oracle · Hugging Face · Deloitte)
 - 🥇 Top 25 @ **HackMSIT 1.0** · 289th nationally @ **Techquezt Women in Tech 2026**
-- Built & presented an ML prototype @ **IIC Ideathon 2026**
-- **IEEE Program Committee** member · NDLI & MSC Society, MSIT
+- 💡 Built & presented a working ML prototype @ **IIC Ideathon 2026**
+- 🔬 **IEEE Program Committee** member · NDLI & MSC Society, MSIT
 
 ---
 
@@ -90,11 +112,6 @@ anushka = {
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
-*"Every dataset tells a story. I build the systems that listen."*
-
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=AnushkaSharma05.AnushkaSharma05&style=flat-square&color=7eb8f7)
 
 </div>
-
-
-
