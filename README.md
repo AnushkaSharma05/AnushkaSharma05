@@ -75,7 +75,6 @@ Shipped 5+ end-to-end ML systems spanning medical diagnosis, AQI monitoring, NLP
 
 ## 🚀 Projects
 
-> Ordered by complexity and impact — best work first.
 
 ---
 
